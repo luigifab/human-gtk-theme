@@ -30,7 +30,6 @@ Après l'installation vous devez redémarrer votre session.}
 
 
 %prep
-%autosetup -p1 -n human-theme-%{version}
 %setup -q -n human-theme-%{version}
 sed -i 's/IconTheme=gnome/IconTheme=mate/g' src/*/index.theme
 
