@@ -6,7 +6,7 @@ Summary(fr):   Thème Human pour GTK
 License:       GPLv3+ and LGPLv2+ and CC-BY-SA
 Group:         Graphical desktop/MATE
 URL:           https://github.com/luigifab/human-theme
-Source0:       %{url}/archive/v%{version}/human-theme-%{version}.tar.gz
+Source0:       https://github.com/luigifab/human-theme/archive/v%{version}/human-theme-%{version}.tar.gz
 
 BuildArch:     noarch
 BuildRequires: aspell-fr
@@ -30,6 +30,7 @@ Après l'installation vous devez redémarrer votre session.}
 
 
 %prep
+%autosetup -p1 -n human-theme-%{version}
 %setup -q -n human-theme-%{version}
 sed -i 's/IconTheme=gnome/IconTheme=mate/g' src/*/index.theme
 
