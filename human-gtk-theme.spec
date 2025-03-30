@@ -1,12 +1,12 @@
 Name:          human-gtk-theme
 Version:       2.2.1
-Release:       2
+Release:       3
 Summary:       Human theme for GTK
 Summary(fr):   Thème Human pour GTK
 License:       GPLv3+ and LGPLv2+ and CC-BY-SA
 Group:         Graphical desktop/MATE
 URL:           https://github.com/luigifab/human-theme
-Source0:       https://github.com/luigifab/human-theme/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:       %{name}-%{version}.tar.gz
 
 BuildArch:     noarch
 BuildRequires: aspell-fr
