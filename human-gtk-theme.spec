@@ -1,6 +1,6 @@
 Name:          human-gtk-theme
 Version:       2.2.1
-Release:       3
+Release:       1
 Summary:       Human theme for GTK
 Summary(fr):   Thème Human pour GTK
 License:       GPLv3+ and LGPLv2+ and CC-BY-SA
