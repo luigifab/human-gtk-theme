@@ -1,6 +1,6 @@
 Name:          human-gtk-theme
 Version:       2.2.1
-Release:       1
+Release:       2
 Summary:       Human theme for GTK
 Summary(fr):   Thème Human pour GTK
 License:       GPLv3+ and LGPLv2+ and CC-BY-SA
@@ -54,5 +54,5 @@ install -Dpm 644 data/profile.sh %{buildroot}/etc/profile.d/%{name}.sh
 
 
 %changelog
-* Mon Mar 03 2025 Fabrice Creuzot <code@luigifab.fr> - 2.2.1-1
+* Mon Mar 03 2025 Fabrice Creuzot <code@luigifab.fr> - 2.2.1-2
 - Initial OpenMandriva package release
