@@ -6,7 +6,7 @@ Summary(fr):   Thème Human pour GTK
 License:       GPLv3+ and LGPLv2+ and CC-BY-SA
 Group:         Graphical desktop/MATE
 URL:           https://github.com/luigifab/human-theme
-Source0:       https://github.com/luigifab/human-theme/archive/v%{version}/human-theme-%{version}.tar.gz
+Source0:       https://github.com/luigifab/human-theme/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:     noarch
 BuildRequires: aspell-fr
